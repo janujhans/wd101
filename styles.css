@@ -1,0 +1,62 @@
+ * {
+   box-sizing: border-box; 
+ }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f9fc;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-container {
+      background-image: linear-gradient(#d8a4eb, #e8a5d6);
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 8px 8px 20px rgba(0, 0.3, 0.3, 0.3);
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    h2 { text-align: center; margin-bottom: 40px; 
+    }
+    label { 
+      display: block; margin-bottom: 6px; font-weight: 600;
+      }
+    input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+      width: 100%; padding: 10px 15px; margin-bottom: 15px;
+      border: 1px solid #e685cc; border-radius: 15px; font-size: 15px;
+    }
+    input:focus {
+      border-color: #6391ba; outline: none; 
+                }
+    .checkbox { 
+      display: flex; align-items: center; margin-bottom: 20px;
+    }
+    .checkbox input {
+      margin-right: 10px;
+    }
+    button {
+      background-image: linear-gradient(to right, #a745a8, #a64298); color: white; border: 1px solid #df86eb;
+      padding: 12px; width: 100%; border-radius: 15px;
+      font-size: 16px; cursor: pointer;
+       box-shadow: 8px 8px 20px rgba(0, 0.3, 0.3, 0.3);
+    }
+    button:hover {
+      background-image: linear-gradient(to left, #fc49b5, #311036);
+    }
+    .table-container {
+      max-width: 900px; width: 100%; background: white;
+      padding: 20px; border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    table { 
+      width: 100%; border-collapse: collapse; text-align: center;
+    }
+    th, td {
+      padding: 12px; border-bottom: 1px solid #eee;
+    }
+    th {
+      background-color: #bbbfbf; font-weight: 600;
+    }
